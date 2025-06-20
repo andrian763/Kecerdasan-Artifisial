@@ -1,2 +1,1 @@
-# Kecerdasan Artifisial
-Berisi projek akhir UAS mata kuliah kecerdasan artifisial
+Repositori ini berisi implementasi model Kecerdasan Artifisial untuk deteksi email phishing dan spam menggunakan pendekatan Naive Bayes dari awal. Termasuk pra-pemrosesan teks, pelatihan model, dan fungsi prediksi.
