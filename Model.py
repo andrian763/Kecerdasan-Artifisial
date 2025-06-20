@@ -32,7 +32,7 @@ class PhishingModel(BaseModel):
     def load_data(self):
         # Sample data for demonstration - replace with your actual data path
         # data = 'Phising after prprocesiing.csv'
-        data = data = r'Predict_Email_spam_and_phising/Phising after prprocesiing.csv'
+        data = data = r'Phising after prprocesiing.csv'
         data = pd.read_csv(data)
         data['Message'] = data['Message'].apply(self.preprocess_message)
         return data
@@ -94,7 +94,7 @@ class SpamModel(BaseModel):
     def load_data(self):
         # Sample data for demonstration - replace with your actual data path
         # data = 'Spam after preprocessing.csv'
-        data = r'Predict_Email_spam_and_phising/Spam after preprocessing.csv'
+        data = r'Spam after preprocessing.csv'
         return pd.read_csv(data)
 
     def train_model(self, data):
